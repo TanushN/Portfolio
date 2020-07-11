@@ -1,29 +1,24 @@
 import React from 'react';
 import Particles from "react-particles-js";
 
+import "../App.css";
+
 export default () => (
     <div
-      style={{
-        position: "absolute",
-          top: 0,
-         left: 0,
-        width: "100%",
-        height: "100%",
-
-      }}
     >
       <Particles
+      className="wrapper"
         params={{
           "particles": {
             "number": {
-              "value": 80,
+              "value": 100,
               "density": {
                 "enable": true,
                 "value_area": 800
               }
             },
             "color": {
-              "value": "#ac9d9e"
+              "value": "#f5aebd"
             },
             "shape": {
               "type": "circle",
@@ -42,7 +37,7 @@ export default () => (
             },
             "opacity": {
               "value": 0.5,
-              "random": false,
+              "random": true,
               "anim": {
                 "enable": false,
                 "speed": 1,
@@ -51,8 +46,8 @@ export default () => (
               }
             },
             "size": {
-              "value": 4,
-              "random": false,
+              "value": 10,
+              "random": true,
               "anim": {
                 "enable": false,
                 "speed": 40,
@@ -61,19 +56,19 @@ export default () => (
               }
             },
             "line_linked": {
-              "enable": true,
-              "distance": 150,
-              "color": "#161515",
+              "enable": false,
+              "distance": 500,
+              "color": "#ffffff",
               "opacity": 0.4,
-              "width": 1
+              "width": 2
             },
             "move": {
               "enable": true,
               "speed": 3,
-              "direction": "none",
+              "direction": "bottom",
               "random": false,
               "straight": false,
-              "out_mode": "bounce",
+              "out_mode": "out",
               "bounce": false,
               "attract": {
                 "enable": false,
@@ -83,15 +78,15 @@ export default () => (
             }
           },
           "interactivity": {
-            "detect_on": "canvas",
+            "detect_on": "window",
             "events": {
               "onhover": {
                 "enable": true,
-                "mode": "repulse"
+                "mode": "bubble"
               },
               "onclick": {
                 "enable": true,
-                "mode": "push"
+                "mode": "repulse"
               },
               "resize": true
             },
@@ -99,14 +94,14 @@ export default () => (
               "grab": {
                 "distance": 400,
                 "line_linked": {
-                  "opacity": 1
+                  "opacity": 0.5
                 }
               },
               "bubble": {
                 "distance": 400,
-                "size": 40,
-                "duration": 2,
-                "opacity": 8,
+                "size": 4,
+                "duration": 0.3,
+                "opacity": 1,
                 "speed": 3
               },
               "repulse": {

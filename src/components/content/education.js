@@ -11,7 +11,7 @@ const education = [
         image:umn,
     },
     {
-        header:"Normandale Community Collge",
+        header:"Normandale Community College",
         meta: "Post Secondary Enrollment Option",
         description: "I attended Normandale when I was a senior in high school through the PSEO program. Here, I took many classes such as Physics 1, Freshman Writing, Probability and Stats with Calculus, U.S. History 2 and Art History.",
         date: "2019 - 2020",

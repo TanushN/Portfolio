@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     
-      <Container centered >
+      <Container centered style={{position:"absolute!importatnt"}}>
         <Grid centered columns={2} doubling verticalAlign="top">
           <GridColumn style={{marginTop:"10%"}}>
             <Card centered inverted >
