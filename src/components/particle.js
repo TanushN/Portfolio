@@ -4,8 +4,6 @@ import Particles from "react-particles-js";
 import "../App.css";
 
 export default () => (
-    <div
-    >
       <Particles
       className="wrapper"
         params={{
@@ -119,7 +117,5 @@ export default () => (
           "retina_detect": true
         }}
       />
-      
-    </div>
   );
   

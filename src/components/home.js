@@ -1,19 +1,15 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState} from "react";
 import {
   Container,
   Grid,
   Card,
   Image,
   Icon,
-  GridRow,
   GridColumn,
   Menu,
-  Segment,
 } from "semantic-ui-react";
 import profile from "../assets/profile.JPG";
 import GetContent from "./content/index";
-import ParticleComponent from "../components/particle";
-
 
 const Home = () => {
   const [ActiveMenuItem, setActiveMenuItem] = useState("About");

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Segment, Card, Container, Image, Icon } from "semantic-ui-react";
+import { Card, Container, Image, Icon } from "semantic-ui-react";
 import about from "./about";
 import education from "./education";
-import profile from "../../assets/profile.JPG";
 import experience from "./experience";
 import projects from "./projects";
 
@@ -34,7 +33,7 @@ const GetContent = (props) => {
   };
 
   return (
-    <Container centered style={{ marginTop: "10px"}} textAlign="left">
+    <Container centered style={{ marginTop: "10px" }} textAlign="left">
       {content.map((item, i) => (
         <Card centered fluid>
           <Card.Content>
@@ -76,7 +75,19 @@ const GetContent = (props) => {
                   <Icon
                     name="github"
                     size="large"
+                    color="black"
                     onClick={() => window.open(item.github)}
+                  />
+                </a>
+              )}
+
+              {item.youtube && (
+                <a>
+                  <Icon
+                    name="youtube"
+                    size="large"
+                    color="red"
+                    onClick={() => window.open(item.youtube)}
                   />
                 </a>
               )}
