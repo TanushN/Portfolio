@@ -9,6 +9,20 @@ const projects = [
     winner: "Highlighted Project Of Global Covid-19 Hackathon",
   },
   {
+    header: "Let's Talk (Stanford TreeHacks Hackathon)",
+    description: "Let’s Talk is an applicaton that aims to produce a middle ground between citizens, by prompting discussions between individuals of opposing political spectrums and ideologies. The app utilizes web sockets and a node.js backend to match people with different views and create a 'room' for them to chat in real time.",
+    external: "https://devpost.com/software/let-s-talk-7si84k",
+    youtube: "https://youtu.be/i261IdoxoQg",
+  },
+  {
+    header: "Pickup",
+    description: "Pickup is a website that aims to eliminate food waste and methane gas produced from rotting food in landfills. It does this by linking restaurants that are about to throw food with people that are in need of food.",
+    external: "https://pickup-ffaa3.firebaseapp.com/",
+    youtube:"https://www.youtube.com/watch?v=YBgEh0EVaKc&feature=emb_title",
+    devpost: "https://devpost.com/software/pickup-7b8yhx",
+    winner: "Minnehack Food Category Winner",
+  },
+  {
     header: "Virtual Closet",
     description:
       "Virtual Closet is an app users can use to reliably see how a certain clothing items fits on them and their body.It promotes products from brands that affiliate with us to customers so that they can view the AR models of the clothes and products and purchase these products if they like them.",

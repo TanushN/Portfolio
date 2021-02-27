@@ -6,6 +6,7 @@ import {
   Image,
   Icon,
   GridColumn,
+  Button,
   Menu,
 } from "semantic-ui-react";
 import profile from "../assets/profile.JPG";
@@ -64,6 +65,17 @@ const Home = () => {
                     onClick={() =>
                       window.open(
                         "https://www.instagram.com/tanush.nadimpalli/"
+                      )
+                    }
+                  />
+                </a>
+                <a>
+                  <Icon
+                    name="file outline"
+                    size="large"
+                    onClick={() =>
+                      window.open(
+                        "https://firebasestorage.googleapis.com/v0/b/tanushn-portfolio.appspot.com/o/my_resume.pdf?alt=media&token=54bb5289-acd1-476f-a498-9804c51304db"
                       )
                     }
                   />
