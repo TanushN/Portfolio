@@ -19,7 +19,6 @@ import 'firebase/analytics';
 
 function App() {
 
-
   if (!firebase.apps.length) {
       firebase.initializeApp(firebaseConfig);
   }

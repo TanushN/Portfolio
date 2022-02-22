@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.0",
+    "env-cmd": "^10.1.0",
     "firebase": "^7.16.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.1.1",
@@ -20,7 +21,7 @@
     "tsparticles": "^1.13.6"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "env-cmd -f ./.env react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
