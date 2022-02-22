@@ -9,14 +9,15 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.0",
     "firebase": "^7.16.0",
-    "react": "^16.13.1",
+    "react": "^17.0.2",
     "react-bootstrap": "^1.1.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-tsparticles": "^1.16.3",
+    "react-tsparticles": "1.37.2",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2"
+    "semantic-ui-react": "^0.88.2",
+    "tsparticles": "^1.13.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }

@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./components/home";
 import "semantic-ui-css/semantic.min.css";
 import ParticlesComponent from "./components/particle";
+import { firebaseConfig } from "./config";
 
 import {
   BrowserRouter as Router,
@@ -13,9 +14,18 @@ import {
   useLocation,
 } from "react-router-dom";
 
-import * as firebase from "firebase";
+import * as firebase from "firebase/app";
+import 'firebase/analytics';
 
 function App() {
+
+
+  if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+  }
+
+  firebase.analytics();
+
   return (
     <Router>
       <Switch>

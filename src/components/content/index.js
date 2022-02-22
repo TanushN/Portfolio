@@ -26,7 +26,6 @@ const GetContent = (props) => {
   }
 
   const splitStrings = (string) => {
-    console.log(string);
     return string.split("\n").map((item, i) => {
       return <p key={i}>{item}</p>;
     });
